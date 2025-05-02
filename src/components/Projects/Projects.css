@@ -1,0 +1,129 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 30px 170px;
+}
+.projects-title{
+    position: relative;
+    
+}
+.projects-title h1{
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.projects-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-image {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.projects-showmore{
+    display: flex;
+    gap: 10px;
+    border-radius: 40px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.projects-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.project-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: #4b42d4;
+}
+
+@media(max-width: 768px){
+    .projects{
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .projects-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .projects-title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .projects-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .projects-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .projects-showmore{
+        padding: 20px 40px;
+        font-size: 18px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+}
+
