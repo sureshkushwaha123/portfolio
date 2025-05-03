@@ -8,7 +8,7 @@ import javascript from "../../assets/javascript.png";
 import react from "../../assets/react.svg";
 import node from "../../assets/Node.js.svg";
 import nextjs from "../../assets/Next.js.svg";
-import MongoDb from "../../assets/MongoDb.svg";
+import mongodb from "../../assets/mongodb.svg";
 import tailwindcss from "../../assets/tailwindcss.svg";
 import java from "../../assets/Java.svg";
 import c from "../../assets/C.svg";
@@ -72,7 +72,7 @@ const About = () => {
     <p className="skill-name">Next.js</p>
   </div>
   <div className="about-skill">
-    <img src={MongoDb} alt="MongoDB" className="skill-logo" />
+    <img src={mongodb} alt="MongoDB" className="skill-logo" />
     <p className="skill-name">MongoDB</p>
   </div>
   <div className="about-skill">
