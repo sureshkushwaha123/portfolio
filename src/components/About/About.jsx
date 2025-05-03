@@ -11,6 +11,7 @@ import nextjs from "../../assets/Next.js.svg";
 import tailwindcss from "../../assets/tailwindcss.svg";
 import java from "../../assets/Java.svg";
 import c from "../../assets/C.svg";
+import python from "../../assets/python.svg"
 
 const About = () => {
   return (
@@ -71,8 +72,8 @@ const About = () => {
     <p className="skill-name">Next.js</p>
   </div>
   <div className="about-skill">
-    <img src="/src/assets/mongodb.svg" alt="MongoDB" className="skill-logo" />
-    <p className="skill-name">MongoDB</p>
+    <img src={python} alt="python" className="skill-logo" />
+    <p className="skill-name">Python</p>
   </div>
   <div className="about-skill">
     <img src={tailwindcss} alt="Tailwind CSS" className="skill-logo" />
