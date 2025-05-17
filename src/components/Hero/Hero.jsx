@@ -12,8 +12,8 @@ const Hero = () => {
         I am always open to new opportunities and collaboration, so let's build something exciting together.
         </p>
         <div className="hero-action">
-            <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect wiht me</AnchorLink></div>
-            <div className="hero-resume"><a href="https://drive.google.com/file/d/18FXio7zuzyDyPNYOIxmw_hOqC0ytX-sH/view?usp=drive_link">My Resume</a></div>
+            <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
+            <div className="hero-resume"><a href="https://drive.google.com/file/d/1_EzT-aaCgm5dbarXE8krFv1Qm_4U_tRh/view?usp=drive_link">My Resume</a></div>
         </div>
     </div>
   )

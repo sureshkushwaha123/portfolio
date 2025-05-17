@@ -11,7 +11,7 @@ import nextjs from "../../assets/Next.js.svg";
 import tailwindcss from "../../assets/tailwindcss.svg";
 import java from "../../assets/Java.svg";
 import c from "../../assets/C.svg";
-import python from "../../assets/python.svg"
+import python from "../../assets/python.svg";
 
 const About = () => {
   return (
